@@ -1,0 +1,23 @@
+*{
+background-color: dimgrey;
+}
+
+#header{
+    background:black;
+}
+
+
+li{
+    display: inline;
+    color: white;
+    background:black;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   
+   background:black;
+   color: white;
+}
