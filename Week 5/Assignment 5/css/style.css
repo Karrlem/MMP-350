@@ -5,12 +5,16 @@ background-color: dimgrey;
 #header{
     background:black;
 }
-
+h2{
+     padding-left: 1.5em;
+}
 
 li{
+    padding-right: 1.5em;
+    margin-left: 35px;
     display: inline;
-    color: white;
-    background:black;
+    float: right;
+    color:white;
 }
 
 #footer {
@@ -18,6 +22,17 @@ li{
    bottom:0;
    width:100%;
    height:60px;   
-   background:black;
    color: white;
+   padding-left: 1.5em;
+}
+
+.desc{
+   float: right;
+    padding-right:5em;
+    padding-top: 2em;
+    font-size: 50px;
+}
+
+img{
+    padding-left: 1.5em;
 }
