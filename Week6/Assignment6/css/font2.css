@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Andada);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
 h1{
     font-family: 'Andala', serif;
 }
 
 p{
-    font-family: font-family: 'Inconsolata', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
