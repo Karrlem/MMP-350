@@ -1,9 +1,49 @@
-/* line 3, style.scss */
+/* line 9, style.scss */
 body {
-  color: #7bfdb3;
+  color: #ecbe45;
 }
 
-/* line 4, style.scss */
+/* line 10, style.scss */
 a {
-  color: #7bfdb3;
+  color: #ecbe45;
+  font-family: Helvetica, sans-serif;
+}
+
+/* line 12, style.scss */
+#about {
+  border: 10px solid #ec4573;
+}
+/* line 14, style.scss */
+#about h1 {
+  font-family: Helvetica, sans-serif;
+}
+/* line 17, style.scss */
+#about p {
+  font-family: Georgia, serif;
+}
+/* line 21, style.scss */
+#about ul {
+  list-style: none;
+}
+/* line 24, style.scss */
+#about ul li a {
+  text-decoration: none;
+}
+/* line 26, style.scss */
+#about ul li a:hover {
+  color: #ecbe45;
+}
+
+/* line 34, style.scss */
+.show-for-small-only ul {
+  list-style: none;
+}
+/* line 37, style.scss */
+.show-for-small-only ul li a {
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+}
+/* line 40, style.scss */
+.show-for-small-only ul li a:hover {
+  color: #ecbe45;
 }
