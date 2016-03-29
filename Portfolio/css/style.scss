@@ -1,47 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Catamaran);
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-/* line 10, style.scss */
+$color:#2B00FF;
+$complement:adjust_hue($color, 180);
+$link: darken($color, 40%);
+$border: lighten(black, 80%);
+
+
 * {
   color: white;
 }
 
-/* line 14, style.scss */
 h1, h2, h3 {
   font-family: 'Montserrat', serif;
 }
 
-/* line 18, style.scss */
 p {
   font-family: 'Catamaran', sans-serif;
   padding: 10px;
 }
 
-/* line 23, style.scss */
-.face {
-  width: 100%;
+.face{
+    width:100%;
 }
 
-/* line 27, style.scss */
 body {
   background: url(img/background.jpg);
 }
 
-/* line 31, style.scss */
 header {
   text-align: center;
 }
 
-/* line 35, style.scss */
 li {
   display: inline;
 }
 
-/* line 39, style.scss */
 a {
   margin: 15px;
 }
 
-/* line 43, style.scss */
 footer {
   background: #ffab62;
   width: 100%;
