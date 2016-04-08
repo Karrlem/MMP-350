@@ -1,0 +1,22 @@
+*{ background: url(img/background.jpg);color: white;}
+
+#container{color:white;}
+
+h1{text-decoration: underline;}
+
+#name{width:200px;
+	  height:15px;
+}
+
+#birth{
+	 width: 220px;
+	 height:15px;
+}
+
+a{
+	margin: 15px;
+}
+
+li{
+	display: inline;
+}
